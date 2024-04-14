@@ -5,7 +5,7 @@
     margin: 100px auto;
 }
 .cabeza{
-    width: 100%;
+    width: 90%;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -14,6 +14,8 @@
     background-color: #ACF6C8;
     height: 8vw;
     border-radius: 2vw;
+    border: rgb(110, 107, 107) solid 1PX;
+    
     
 }
 H1{
@@ -32,6 +34,7 @@ H1{
     top: 30px;
     left: 68px;
     display: none;
+    border: rgb(110, 107, 107) solid 1PX;
 }
 #center {
     width: 100px;
@@ -41,7 +44,9 @@ H1{
     position: absolute;
     top: 25px;
     left: 25px;
+    border: rgb(110, 107, 107) solid 1PX;
     display: none;
+
 }
 
 #petal1 {
@@ -54,8 +59,7 @@ H1{
     left: -60px;
     transform: rotate(35deg);
     display: none;
-    border-color: black;
-    border:1vw;
+    border: rgb(110, 107, 107) solid 1PX;
 }
 
 #petal3 {
@@ -68,6 +72,7 @@ H1{
     left: 33px;
     transform: rotate(134deg);
     display: none;
+    border: rgb(110, 107, 107) solid 1PX;
 }
 
 #petal4 {
@@ -81,6 +86,7 @@ H1{
     left: 105px;
     transform: rotate(3deg);
     display: none;
+    border: rgb(110, 107, 107) solid 1PX;
 }
 #petal2 {
     width: 80px;
@@ -92,6 +98,8 @@ H1{
     left: -37px;
     transform: rotate(265deg);
     display: none;
+    border: rgb(110, 107, 107) solid 1PX;
+    
 }
 
 p{
@@ -99,6 +107,7 @@ p{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4vw;
     color:#b555d2;
+    text-align: justify;
 }
 
 
