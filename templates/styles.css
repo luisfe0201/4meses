@@ -4,11 +4,30 @@
     height: 150px;
     margin: 100px auto;
 }
+.cabeza{
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 1vw;
+    margin: 3vw;
+    background-color: #ACF6C8;
+    height: 8vw;
+    border-radius: 2vw;
+    
+}
+H1{
+    font-size: 5VW;
+    font-family:cursive;
+    color: #b555d2;
+    margin: 0;
+}
+
 #rama {
     width: 15px;
     height: 250px;
     border-radius: 50% 15% 10% 10%;
-    background-color: #25f036;
+    background-color: #1e7e26;
     position: absolute;
     top: 30px;
     left: 68px;
@@ -18,7 +37,7 @@
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background-color: #ffeb3b;
+    background-color: #C8A2C8;
     position: absolute;
     top: 25px;
     left: 25px;
@@ -29,19 +48,21 @@
     width: 80px;
     height: 80px;
     border-radius: 60% 10%;
-    background-color: #f44336;
+    background-color: #ACF6C8;
     position: absolute;
     top: 50px;
     left: -60px;
     transform: rotate(35deg);
     display: none;
+    border-color: black;
+    border:1vw;
 }
 
 #petal3 {
     width: 80px;
     height: 80px;
     border-radius: 60% 10%;
-    background-color: #f44336;
+    background-color: #ACF6C8;
     position: absolute;
     top: -60px;
     left: 33px;
@@ -54,7 +75,7 @@
     width: 80px;
     height: 80px;
     border-radius: 60% 10%;
-    background-color: #f44336;
+    background-color: #ACF6C8;
     position: absolute;
     top: -29px;
     left: 105px;
@@ -65,7 +86,7 @@
     width: 80px;
     height: 80px;
     border-radius: 60% 10%;
-    background-color: #f44336;
+    background-color: #ACF6C8;
     position: absolute;
     top: -24px;
     left: -37px;
@@ -77,7 +98,7 @@ p{
     padding: 2vw;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 4vw;
-    color:#368ff4;
+    color:#b555d2;
 }
 
 
