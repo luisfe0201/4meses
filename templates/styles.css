@@ -1,0 +1,85 @@
+.contenedor {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 100px auto;
+}
+#rama {
+    width: 15px;
+    height: 250px;
+    border-radius: 50% 15% 10% 10%;
+    background-color: #25f036;
+    position: absolute;
+    top: 30px;
+    left: 68px;
+    display: none;
+}
+#center {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #ffeb3b;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    display: none;
+}
+
+#petal1 {
+    width: 80px;
+    height: 80px;
+    border-radius: 60% 10%;
+    background-color: #f44336;
+    position: absolute;
+    top: 50px;
+    left: -60px;
+    transform: rotate(35deg);
+    display: none;
+}
+
+#petal3 {
+    width: 80px;
+    height: 80px;
+    border-radius: 60% 10%;
+    background-color: #f44336;
+    position: absolute;
+    top: -60px;
+    left: 33px;
+    transform: rotate(134deg);
+    display: none;
+}
+
+#petal4 {
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 60% 10%;
+    background-color: #f44336;
+    position: absolute;
+    top: -29px;
+    left: 105px;
+    transform: rotate(3deg);
+    display: none;
+}
+#petal2 {
+    width: 80px;
+    height: 80px;
+    border-radius: 60% 10%;
+    background-color: #f44336;
+    position: absolute;
+    top: -24px;
+    left: -37px;
+    transform: rotate(265deg);
+    display: none;
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 3vw;
+    color:#368ff4;
+}
+
+
+
+
+
